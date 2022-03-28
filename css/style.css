@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(19, 3, 63);
+}
+.continer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.continer .logo{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fb741d;
+    cursor: pointer;
+}
+.continer .nav_bar{
+    color: #fb741d;
+    cursor: pointer;
+
+}
+.continer .nav_bar ul{
+    font-weight: 700;
+    font-size: 17px;
+    list-style: none;
+}
+.nav_bar ul li a{
+    color: #fb741d;
+}
+.nav_bar ul li{
+    display: inline-block;
+    margin: 0px 14px;
+}
+.continer .search{
+    /* background-color: #fb741d; */
+}
+.search input{
+    outline: none;
+    border: 1px solid #fb741d;
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px 4px;
+    width: 10rem;
+    background-color: transparent;
+}
+
+
+    
+
+.search button{
+    background-color: #fb741d;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 0px 10px 10px 0px;
+    margin: 0px -4px;
+    cursor: pointer;
+    
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.content .description{
+    width: 22rem;
+    margin: 10rem 67px;
+}
+.content h2{
+    font-size: 37px;
+    text-align: center;
+
+}
+.content h2 span{
+    font-size: 50px;
+    color: #fb741d;
+}
+.content p{
+    line-height: 1.7;
+    text-align: center;
+    font-weight: 600;
+
+}
+.content button{
+    font-size: 21px;
+    background-color: #fb741d;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 10px;
+    margin: 0px -4px;
+    cursor: pointer;
+
+}
+.login{
+    margin: 5rem 0px;
+    border: 1px solid;
+    padding: 29px 17px;
+    height: 26rem;
+}
+
+.login .face{
+    color: #fb741d;
+    background-color: white;
+    padding: 11px 0px;
+    text-align: center;
+    border-radius: 12px;
+    width: 18rem;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: #000000bd;
+}
+
+.login input{
+    
+    width: 18rem;
+    outline: none;
+    padding: 8px 9px;
+    margin: 12px 0px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid #fb741d;
+    background-color: transparent;
+}
+.login button{
+    color: white;
+    background-color: #fb741d;
+    padding: 11px 0px;
+    text-align: center;
+    border-radius: 12px;
+    width: 18rem;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.login p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 18px 0px;
+    
+}
+.login p span{
+    color: #fb741d;
+    cursor: pointer;
+
+
+    
+}
+.login .social_media{
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    cursor: pointer;
+
+}
+
+
+.services{
+    display: grid;
+    grid-template-columns: 36% 36% 30%;
+    margin: 50px 80px;
+}
+
+.service_1{
+    
+}
+.service img{
+    width: 16rem;
+    height: 8rem;
+    border: 3px solid #fb741d;
+    border-radius: 16px 45px 16px 45px;
+}
+.service h2{
+    font-size: 18px;
+    margin: 28px 54px;
+    width: 206px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+
+}
+.service span{
+    color: orange;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0px 76px;
+
+}
+.service button{
+    color: white;
+    background-color: #fb741d;
+    padding: 4px 0px;
+    text-align: center;
+    border-radius: 12px;
+    width: 5rem;
+    font-weight: 600;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+
+.contact{
+    width: 37rem;
+    height: 31rem;
+    border: 2px solid #fb741d;
+    margin: 39px auto;
+    padding: 18px 93px;
+}
+.contact h2{
+    text-align: center;
+    color: #fb741d;
+    margin: 20px 0px;
+}
+.contact input{
+    width: 24rem;
+    outline: none;
+    padding: 8px 9px;
+    margin: 12px 0px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid #fb741d;
+    background-color: transparent;
+}
+.contact textarea{
+    width: 24rem;
+    
+}
+.contact button{
+    color: white;
+    background-color: #fb741d;
+    padding: 8px 0px;
+    text-align: center;
+    border-radius: 12px;
+    width: 24rem;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+}
+.design{
+    display: grid;
+    grid-template-columns: 35% 35% 51%;
+    margin: 54px 135px;
+}
+.design img{
+    width: 300px;
+    height: 230px;
+    margin: 2px 0px;
+}
+
+.about{
+    display: flex;
+    width: 50rem;
+    height: 19rem;
+    border: 2px solid;
+    margin: 110px auto;
+    background-color: #faebd787;
+    border-radius: 2px 25px 2px 25px
+}
+.about img{
+    width: 255px;
+    border-radius: 50%;
+    margin: 30px 20px;
+    height: 190px;
+}
+
+.about h4{
+    line-height: 2;
+
+}
+
+
+
+
+
+
